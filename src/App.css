@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+	text-shadow: -1px 1px 0 #513922,
+                1px 1px 0 #513922,
+                1px -1px 0 #513922,
+                -1px -1px 0 #513922;
+}
+
+span, p, a {
+	text-shadow: -0.5px 0.5px 0 #513922,
+                0.5px 0.5px 0 #513922,
+                0.5px -0.5px 0 #513922,
+                -0.5px -0.5px 0 #513922;
+}
+
+.text-title-stroke {
+	text-shadow: -1px 1px 0 #513922,
+                1px 1px 0 #513922,
+                1px -1px 0 #513922,
+                -1px -1px 0 #513922;
+}
+
+.text-normal-stroke {
+	text-shadow: -0.5px 0.5px 0 #513922,
+                0.5px 0.5px 0 #513922,
+                0.5px -0.5px 0 #513922,
+                -0.5px -0.5px 0 #513922;
+}
+
+.main-menu {
+  background-color: #121212;
+}
+
+.menu-item {
+  color: #CDA6FF;
+  width: 72px;
+  height: 72px;
+}
+
+.menu-item label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+
+  border: 1px solid #696969;
+}
+
+.user-header h2 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.user-header h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #787878;
+}
+
+.stats {
+  gap: 0px;
+  border-radius: 10px;
+  background: #8B68B7;
+}
+
+.stats label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 6px;
+}
+
+.stats-value {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+
+.stats-currency {
+  width: 32px;
+  height: 32px;
+}
+
+.model-value {
+  color: #FFCE95;
+}
+
+.boost-btn {
+  width: 114px;
+  height: 40.19px;
+  border-radius: 10px;
+  background: #8B68B7;
+
+  font-family: Poppins;
+  font-size: 17.38px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.boost-btn:active {
+  transform: scale(0.95);
+}
+
+.boost-btn:disabled,
+.boost-btn[disabled] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
+
+.energy-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background: #8B68B7;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.energy-btn span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+.energy-btn:active {
+  transform: scale(0.95);
+}
+
+.energy-btn:disabled,
+.energy-btn[disabled] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
+
+.page h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+
+.page h5 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.sm-square-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #CDA6FF;
+  text-align: center;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.sm-square-btn:active {
+  transform: scale(0.95);
+}
+
+.sm-square-btn:disabled,
+.sm-square-btn[disabled] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
+
+.sm-square-btn-transparent {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.sm-square-btn-transparent:active {
+  transform: scale(0.95);
+}
+
+.sm-square-btn-transparent:disabled,
+.sm-square-btn-transparent[disabled] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
+
+
+.stats-input {
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 8px;
+  color: #9A9A9A;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+.stats-friends {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.stats-line {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 54px;
+  text-align: center;
+}
+
+.spacer {
+  border-bottom: 1px solid #3C3C3C;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sm-user-name {
+  
+}
